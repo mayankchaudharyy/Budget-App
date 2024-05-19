@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-sect{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bud-div{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+.exp-div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}
+
+.input-area{
+    display: flex;
+    height: 200px;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.mid-hero{
+    display: flex;
+    justify-content: space-around;
+    width: 460px;
+    padding: 20px;
+    color: #fff;
+    background-color: #547EF9;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.input-area input{
+    padding: 6px 10px;
+    color: #727272;
+    border: 2px solid #b3b3b3;
+    border-radius: 4px;
+}
+
+.btn{
+    background-color: #547EF9;
+    border: 0px;
+    padding: 7px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.total h2{
+    font-weight: 400;
+}
+.total p{
+    font-weight: 300;
+}
+
+.expenses{
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h2{
+    font-size: 16px;
+}
+
+.exp-reason{
+    border: 0px;
+    border-left: 4px solid #547EF9;
+    padding: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.exp-his-money{
+    border: 0px;
+    font-size: 400;
+    color: #727272;
+    background-color: #fff;
+}
+
+.edit, .del{
+    background: none;
+    border: none;
+}

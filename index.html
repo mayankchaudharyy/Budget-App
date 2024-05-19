@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Budget App</title>
+</head>
+<body>
+    <section class="main-sect">
+        <div>
+            <h1>Budget Calculator</h1>
+        </div> 
+        <section class="input-area">
+            <div class="bud-div">
+                <h2>Budget</h2>
+                <input type="number" class="bud-money" placeholder="Enter Total Amount">
+                <div>
+                    <button class="bud-btn btn">Set Budget</button>
+                </div>
+            </div>
+            <div class="exp-div">
+                <h2>Expenses</h2>
+                <input type="text" class="exp-title" placeholder="Enter Title of Product">
+                <input type="number" class="exp-money" placeholder="Enter Cost of Product">
+                <div>
+                    <button class="exp-btn btn">Add Expense</button>
+                </div>
+            </div>
+        </section>
+        <section class="mid-hero">
+            <div class="total">
+                <h2>Total Budget</h2>
+                <p class="total-money">0000</p>
+            </div>
+            <div class="total">
+                <h2>Expenses</h2>
+                <p class="total-exp">0000</p>
+            </div>
+            <div class="total">
+                <h2>Balance</h2>
+                <p class="remain">0000</p>
+            </div>
+        </section>
+        <section class="expenses">
+            <h1 class="exp-head">Expense List</h1>
+            <!-- <div class="history">
+                <input type="text" value="Enjoy" minlength="1" class="exp-reason" disabled>
+                <input type="number" value="1000" min="0" class="exp-his-money" disabled>
+                <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button class="del"><i class="fa-solid fa-trash"></i></button>
+            </div> -->
+        </section>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
